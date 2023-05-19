@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rsmovies_react_js/static/css/main.bfd5e080.css",
+    "main.js": "/Rsmovies_react_js/static/js/main.ce238870.js",
+    "index.html": "/Rsmovies_react_js/index.html",
+    "main.bfd5e080.css.map": "/Rsmovies_react_js/static/css/main.bfd5e080.css.map",
+    "main.ce238870.js.map": "/Rsmovies_react_js/static/js/main.ce238870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfd5e080.css",
+    "static/js/main.ce238870.js"
+  ]
+}
