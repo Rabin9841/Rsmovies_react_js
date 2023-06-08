@@ -6,6 +6,10 @@ import Home from './Components/Home';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Cards from './Components/Cards';
 import AddMovie from './Components/AddMovie';
+import Detail from './Components/Detail';
+import Signup from './Components/Signup';
+import Login from './Components/Login';
+
 
 const router = createBrowserRouter([
   {
@@ -23,6 +27,18 @@ const router = createBrowserRouter([
       {
         path: "/addmovie",
         element: <div><AddMovie /></div>,
+      },
+      {
+        path: "/Detail/:id",
+        element: <div><Detail /></div>,
+      },
+      {
+        path: "/login",
+        element: <div><Login/></div>,
+      },
+      {
+        path: "/signup",
+        element: <div><Signup /></div>,
       }
     ]
   },
